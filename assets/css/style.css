@@ -1,0 +1,31 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.hero-section {
+    width: 1321px;
+    height: 646px;
+    background-color: #1E1E1E;
+    color: white;
+    border-radius: 30px;
+}
+
+.h-parent-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.h-right-div img {
+    width: 100%;
+}
+
+.h-img {
+    width: 581px;
+    height: 613px;
+    padding-top: 33px;
+    padding-right: 79px;
+}
