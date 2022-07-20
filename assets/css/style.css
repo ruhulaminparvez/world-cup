@@ -28,6 +28,7 @@ main {
     background-color: #1E1E1E;
     color: white;
     border-radius: 30px;
+    border: none;
 }
 
 .h-parent-div {
@@ -45,13 +46,13 @@ main {
 .h-title {
     font-size: 70px;
     line-height: 80px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-bottom: 0px;
 }
 
 .h-left-div p {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 26px;
 }
 
@@ -91,7 +92,69 @@ main {
 /***************************************
   Styles for Cards Body Section Start  
 ***************************************/
+.body-section {
+    margin-top: 8%;
+}
 
+/* Side Button Starts */
+
+.b-parent-div {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+}
+
+.b-left-div {
+    display: flex;
+    flex-direction: row;
+    width: 212px;
+    height: 212px;
+    background-color: #161616;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-sidebtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.b-sidebtn .btn {
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.active {
+    background-color: #DD0000;
+    color: white;
+}
+
+/* Side Button Ends */
+
+.b-right-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 2%;
+}
+
+.cards {
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+}
+
+.card-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 25px
+}
 
 
 /***************************************
