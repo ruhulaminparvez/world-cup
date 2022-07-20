@@ -1,0 +1,247 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Global Styles */
+a:-webkit-any-link { 
+    text-decoration: none;
+    color: #161616;
+}
+
+/********************************
+  Styles for Hero Section Start 
+********************************/
+
+.container{
+    width: 1240px;
+    height: 646px;
+    margin-top: 2%;
+}
+
+.hero-section {
+    background-color: #1E1E1E;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.h-parent-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.h-left-div{
+    width: 531px;
+    height: 424px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.h-title {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.h-left-div p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.h-left-div button {
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.h-left-div > button+a {
+    text-decoration: none !important;
+}
+
+.r-arrow {
+    margin-left: 8px;
+}
+
+.h-right-div {
+    margin-right: 50px;
+    margin-left: 45px;
+}
+
+.h-right-div img {
+    width: 100%;
+}
+
+.h-img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
+
+/*******************************
+  Styles for Hero Section End  
+*******************************/
+
+/***************************************
+  Styles for Cards Body Section Start  
+***************************************/
+.body-section {
+    margin-top: 6%;
+}
+
+/* Side Button Starts */
+
+.b-parent-div {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+}
+
+.b-left-div {
+    display: flex;
+    flex-direction: row;
+    width: 212px;
+    height: 212px;
+    background-color: #161616;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-sidebtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.b-sidebtn .btn {
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+#active {
+    background-color: #DD0000;
+    color: white !important;
+}
+
+/* Side Button Ends */
+
+.b-right-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 2%;
+}
+
+.cards {
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(146, 138, 138, 0.356)
+}
+
+.cards button {
+    margin-left: 4%;
+}
+
+.cards h3 {
+    margin-left: 4%;
+}
+
+.card-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 25px
+}
+
+.cards > div {
+    margin-left: 4%;
+}
+
+
+
+/***************************************
+  Styles for Cards Body Section End  
+***************************************/
+
+
+/***************************************
+  Styles for Footer Section Start  
+***************************************/
+
+.footer-section {
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 550px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.footer {
+    margin-bottom: 1%;
+}
+
+.f-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons span {
+    margin: 1%;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+hr {
+    width: 1150px;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0.6;
+}
+
+.f-terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+/***************************************
+  Styles for Footer Section End  
+***************************************/
