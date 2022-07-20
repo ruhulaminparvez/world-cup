@@ -251,14 +251,19 @@ hr {
 ***************************************/
 
 @media screen and (max-width: 576px) {
+    body {
+        margin: 0%;
+    }
+
     .main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    /* Hero Section Start */
     .hero-section {
-        width: 398px;
+        width: 335px;
         height: 592px;
         margin: 0px;
         padding: 0px;
@@ -269,20 +274,24 @@ hr {
     .h-parent-div {
         display: flex;
         flex-direction: column; 
+        justify-content: center;
+        align-items: center;
     }
 
     .h-left-div {
-        width: 280px;
-        height: 190px;
+        width: 220px;
+        height: 229px;
+        margin-right: 55px;
+        
     }
 
     .h-title {
-        font-size: 24px;
-        line-height: 33px;
+        font-size: 22px;
+        line-height: 28px;
     }
 
     .h-left-div > p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .h-left-div > button {
@@ -291,14 +300,72 @@ hr {
     }
 
     .h-img {
-        width: 233px;
-        height: 245px;
+        width: 236px;
+        height: 260px;
     }
 
-    .h-right-div {
-        margin-top: 54px;
+
+    /* Hero Section End */
+
+    /* Body Card Section Start */
+    .b-parent-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
+    .b-left-div {
+        background-color: white;
+    }
+
+    .b-right-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Body Card Section End */
+
+    /* Footer Section End */
+
+    .footer-section {
+        margin-top: 3000px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-terms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-title {
+        font-size: 24px;
+        margin-top: 20%;
+    }
+
+    .social-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+
+    hr {
+        width: 335px;
+    }
+    /* Footer Section End */
+    
 }
 
 /***************************************
