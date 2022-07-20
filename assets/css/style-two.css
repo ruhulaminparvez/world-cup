@@ -71,6 +71,12 @@ a:-webkit-any-link {
     font-size: 20px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.h-left-div button:hover {
+    background-color: white;
+    color: #161616;
 }
 
 .h-left-div > button+a {
@@ -142,8 +148,18 @@ a:-webkit-any-link {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #DD0000;
+    color: white;
+}
+
 #active {
     background-color: #DD0000;
+    color: white !important;
+}
+
+#active:hover {
+    background-color: orangered;
     color: white !important;
 }
 
