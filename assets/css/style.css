@@ -6,9 +6,19 @@ body {
     background-color: white;
 }
 
-.hero-section {
-    width: 1321px;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1150px;
     height: 646px;
+    margin-top: 2%;
+}
+
+.hero-section {
     background-color: #1E1E1E;
     color: white;
     border-radius: 30px;
@@ -16,7 +26,46 @@ body {
 
 .h-parent-div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.h-left-div{
+    width: 531px;
+    height: 424px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.h-title {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700px;
+    margin-bottom: 0px;
+}
+
+.h-left-div p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+.h-left-div button {
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.r-arrow {
+    margin-left: 8px;
+}
+
+.h-right-div {
+    margin-right: 30px;
+    margin-left: 35px;
 }
 
 .h-right-div img {
@@ -26,6 +75,5 @@ body {
 .h-img {
     width: 581px;
     height: 613px;
-    padding-top: 33px;
-    padding-right: 79px;
+    margin-top: 33px;
 }
