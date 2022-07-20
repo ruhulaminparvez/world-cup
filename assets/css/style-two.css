@@ -330,6 +330,7 @@ hr {
 
     .h-left-div > p {
         font-size: 10px;
+        line-height: 20px;
     }
 
     .h-left-div > button {
