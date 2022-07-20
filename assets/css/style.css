@@ -446,7 +446,7 @@ hr {
 
     .h-title {
         font-size: 30px;
-        line-height: 50px;
+        line-height: 40px;
         font-weight: 700;
         margin-bottom: 0px;
     }
@@ -454,7 +454,7 @@ hr {
     .h-left-div p {
         font-size: 12px;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 25px;
     }
 
     .h-left-div button {
@@ -484,6 +484,71 @@ hr {
         margin-top: 23px;
     }
     /* Hero Section End */
+
+    /* Card Body Section Start */
+    .b-parent-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .b-left-div {
+        background-color: white;
+        margin: 0px !important;
+    }
+
+    .b-sidebtn {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .b-right-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* Card Body Section End */
+
+    /* Footer Section Start */
+    .footer-section {
+        margin-top: 1550px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-terms {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .f-title {
+        font-size: 35px;
+        margin-top: 10%;
+    }
+
+    .social-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    hr {
+        width: 535px;
+    }
+    /* Footer Section End */
 }
 
 /***************************************
