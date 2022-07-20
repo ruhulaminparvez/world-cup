@@ -4,6 +4,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: white;
+    margin: 0px;
 }
 
 main {
@@ -93,7 +94,7 @@ main {
   Styles for Cards Body Section Start  
 ***************************************/
 .body-section {
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 /* Side Button Starts */
@@ -159,4 +160,63 @@ main {
 
 /***************************************
   Styles for Cards Body Section End  
+***************************************/
+
+
+/***************************************
+  Styles for Footer Section Start  
+***************************************/
+
+.footer-section {
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 550px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.footer {
+    margin-bottom: 1%;
+}
+
+.f-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons span {
+    margin: 1%;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+hr {
+    width: 1150px;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0.6;
+}
+
+.f-terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+/***************************************
+  Styles for Footer Section End  
 ***************************************/
