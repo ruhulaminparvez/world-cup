@@ -8,9 +8,15 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+
+/********************************
+  Styles for Hero Section Start 
+********************************/
 
 .container{
     width: 1150px;
@@ -77,3 +83,17 @@ main {
     height: 613px;
     margin-top: 33px;
 }
+
+/*******************************
+  Styles for Hero Section End  
+*******************************/
+
+/***************************************
+  Styles for Cards Body Section Start  
+***************************************/
+
+
+
+/***************************************
+  Styles for Cards Body Section End  
+***************************************/
