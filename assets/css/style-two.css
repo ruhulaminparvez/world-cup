@@ -101,7 +101,7 @@ a:-webkit-any-link {
 *******************************/
 
 /***************************************
-  Styles for Cards Body Section Start  
+  Styles for Upcoming Match Section Start  
 ***************************************/
 .body-section {
     margin-top: 6%;
@@ -157,34 +157,36 @@ a:-webkit-any-link {
 }
 
 .cards {
+    text-align: center;
     width: 312px;
-    height: 362px;
+    height: 242px;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(146, 138, 138, 0.356)
+    border: 1px solid #E8E8E8;
 }
 
-.cards button {
-    margin-left: 4%;
-}
-
-.cards h3 {
-    margin-left: 4%;
-}
-
-.card-icon {
+.flags {
     display: flex;
     flex-direction: row;
-    gap: 25px
+    justify-content: center;
+    align-items: center;
 }
 
-.cards > div {
-    margin-left: 4%;
+.flag {
+    margin-top: 15%;
+}
+
+.vs {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15%;
 }
 
 
 
 /***************************************
-  Styles for Cards Body Section End  
+  Styles for Upcoming Match Section End  
 ***************************************/
 
 
@@ -196,7 +198,6 @@ a:-webkit-any-link {
     height: 340px;
     display: flex;
     flex-direction: column;
-    margin-top: 550px;
     justify-content: center;
     align-items: center;
     background-color: #1E1E1E;
