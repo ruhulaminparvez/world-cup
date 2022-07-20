@@ -291,6 +291,7 @@ hr {
 @media screen and (max-width: 576px) {
     body {
         margin: 0%;
+        overflow-x: hidden;
     }
 
     .main {
@@ -418,6 +419,7 @@ hr {
 @media screen and (min-width: 577px) and (max-width: 768px) {
     body {
         margin: 0%;
+        overflow-x: hidden;
     }
 
     main {
