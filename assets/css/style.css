@@ -217,7 +217,27 @@ a:-webkit-any-link {
     margin-left: 4%;
 }
 
+/* Specical Btn Start*/
+.special-div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%; 
+    margin-left: 47%;
+}
 
+.special-btn {
+    width: 100px;
+    height: 40px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    visibility: hidden;
+}
+/* Special Btn End */
 
 /***************************************
   Styles for Cards Body Section End  
@@ -232,7 +252,7 @@ a:-webkit-any-link {
     height: 340px;
     display: flex;
     flex-direction: column;
-    margin-top: 550px;
+    margin-top: 620px;
     justify-content: center;
     align-items: center;
     background-color: #1E1E1E;
@@ -361,6 +381,7 @@ hr {
         justify-content: center;
         align-items: center;
     }
+
     /* Body Card Section End */
 
     /* Footer Section End */
@@ -509,11 +530,38 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Specical Btn Start*/
+    .special-div {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%; 
+    }
+
+    .special-btn {
+        width: 100px;
+        height: 40px;
+        background-color: #DD0000;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        visibility: visible;
+    }
+
+    .special-btn:hover {
+        background-color: orangered;
+        color: white;
+    }
+    /* Special Btn End */
+
     /* Card Body Section End */
 
     /* Footer Section Start */
     .footer-section {
-        margin-top: 1550px;
+        margin-top: 1600px;
         width: 100%;
         height: auto;
         margin-bottom: 0px;

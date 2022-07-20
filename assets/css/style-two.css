@@ -199,7 +199,27 @@ a:-webkit-any-link {
     margin-top: 15%;
 }
 
+/* Specical Btn Start*/
+.special-div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%; 
+    margin-left: 2%;
+}
 
+.special-btn {
+    width: 100px;
+    height: 40px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    visibility: hidden;
+}
+/* Special Btn End */
 
 /***************************************
   Styles for Upcoming Match Section End  
@@ -491,11 +511,38 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Specical Btn Start*/
+    .special-div {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%; 
+    }
+
+    .special-btn {
+        width: 100px;
+        height: 40px;
+        background-color: #DD0000;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        visibility: visible;
+    }
+
+    .special-btn:hover {
+        background-color: orangered;
+        color: white;
+    }
+    /* Special Btn End */
+
     /* Card Body Section End */
 
     /* Footer Section Start */
     .footer-section {
-        margin-top: 450px;
+        margin-top: 480px;
         width: 100%;
         height: auto;
         margin-bottom: 0px;
