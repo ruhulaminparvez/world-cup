@@ -160,7 +160,7 @@ a:-webkit-any-link {
     width: 312px;
     height: 362px;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(146, 138, 138, 0.356)
+    border: 1px solid #E8E8E8;
 }
 
 .cards button {
