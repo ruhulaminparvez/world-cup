@@ -246,3 +246,71 @@ hr {
 /***************************************
   Styles for Footer Section End  
 ***************************************/
+
+
+/***************************************
+  Responsive for Mobile Device Start
+***************************************/
+
+@media screen and (max-width: 576px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-section {
+        width: 398px;
+        height: 592px;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .h-parent-div {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .h-left-div {
+        width: 280px;
+        height: 190px;
+    }
+
+    .h-title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .h-left-div > p {
+        font-size: 12px;
+    }
+
+    .h-left-div > button {
+        height: 40px;
+        width: 161px;
+    }
+
+    .h-img {
+        width: 233px;
+        height: 245px;
+    }
+
+    .h-right-div {
+        margin-top: 54px;
+    }
+
+}
+
+/***************************************
+  Responsive for Mobile Device End
+***************************************/
+
+/***************************************
+  Responsive for Tablet Start
+***************************************/
+
+/***************************************
+  Responsive for Tablet End
+***************************************/
