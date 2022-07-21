@@ -62,7 +62,8 @@ a:-webkit-any-link {
     line-height: 26px;
 }
 
-.h-left-div button {
+.h-left-div > button {
+    position: relative;
     width: 187px;
     height: 56px;
     border-radius: 5px;
@@ -72,12 +73,33 @@ a:-webkit-any-link {
     border: none;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.4s all ease-in-out 0s;
 }
 
-.h-left-div button:hover {
+.h-left-div > button:hover {
     background-color: white;
     color: #161616;
 }
+
+/* Animation Btn Start */
+.h-left-div > button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #DD0000;
+    transition: 0.4s all ease-in-out 0s;
+}
+
+.h-left-div > button:hover::before {
+    top: unset;
+    bottom: 0;
+    height: 100%;
+}
+/* Animation Btn Ends */
 
 .h-left-div > button+a {
     text-decoration: none !important;
