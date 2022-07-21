@@ -305,6 +305,10 @@ a:-webkit-any-link {
     margin-top: 0px;
 }
 
+.social-icons a:hover {
+    color: #3AB4F2;
+}
+
 hr {
     width: 1150px;
     margin-top: 30px;
